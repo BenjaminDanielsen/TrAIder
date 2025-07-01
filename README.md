@@ -7,6 +7,8 @@ In this day and age, there are a *plethora* of ways to become a millionaire over
 
 Introducing **TrAIder**—a Trader AI, or *TrAIder* if you will. The goal of this project is simple: use the power of social media hype to predict and profit from crypto price swings. Since no one really understands how or why some coins surge overnight, TrAIder is designed to ride the wave of hype, memes, and market sentiment.
 
+<img width="100%" src="assets/Poster.png">
+
 ## 🧠 How It Works
 
 The project is broken down into three core stages:
