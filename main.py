@@ -15,7 +15,7 @@ logger = setup_logger()
 
 TELEGRAM_API_ID = int(os.getenv("TELEGRAM_API_ID"))
 TELEGRAM_API_HASH = os.getenv("TELEGRAM_API_HASH")
-TELEGRAM_GROUPS = ["https://t.me/bob_alpha"]
+TELEGRAM_GROUPS = ["https://t.me/bob_alpha"] # Swap out this for the telegram chats you want to test
 POST_LIMIT = 100
 
 

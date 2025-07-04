@@ -1,10 +1,10 @@
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import timedelta
 
 
 def fetch_price_history_coingecko(coin_id, start_time):
-    end_time = datetime.now()
+    end_time = start_time + timedelta(days=1)
     start_timestamp = int(start_time.timestamp())
     end_timestamp = int(end_time.timestamp())
 
