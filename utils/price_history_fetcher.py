@@ -28,4 +28,5 @@ def fetch_price_history_coingecko(coin_id, start_time):
     df["datetime"] = pd.to_datetime(df["timestamp"], unit="s")
     df.set_index("datetime", inplace=True)
     df.drop(columns=["timestamp"], inplace=True)
+
     return df
